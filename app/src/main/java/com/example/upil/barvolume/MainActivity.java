@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         hideKeyboard();
     }
 
+
     private void hideKeyboard() {
         View view = this.getCurrentFocus();
         if (view != null) {
